@@ -29,7 +29,7 @@ const CONFIG = {
   host:           'mc.atlasoyuncu.com',
   port:           25565,
   version:        '1.20.1',
-  username:       'BurakG2', // Dinamik olarak hesaplar.json'dan gelecek
+  username:       'kullaniciadi', // Dinamik olarak hesaplar.json'dan gelecek
   auth:           'offline',
   reconnect:      true,
   reconnectDelay: 10,

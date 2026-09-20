@@ -1,0 +1,14 @@
+{
+  "name": "mc-afk-bot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK Bot - Microsoft OAuth ile otomatik giriş",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.37.1",
+    "socks": "^2.8.9",
+    "vec3": "^0.2.0"
+  }
+}

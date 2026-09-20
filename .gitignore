@@ -1,0 +1,15 @@
+# Bağımlılıklar
+node_modules/
+
+# Kişisel / çalışma anı verileri (repo'ya ASLA gitmez)
+auth-passwords.json
+hesaplar.json
+proxy.txt
+proxy-mode.json
+proxy-stats.json
+chat.log
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini

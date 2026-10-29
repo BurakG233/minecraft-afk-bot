@@ -1,0 +1,21 @@
+# Node.js / npm
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Kişisel / çalışma zamanı verileri (repoya eklenmez)
+auth-passwords.json
+hesaplar.json
+hesaplartxt.txt
+chat.log
+proxy.txt
+proxy-mode.json
+proxy-stats.json
+replay-scripts.json
+ayarlar.json
+
+# Genel
+*.log
+.env
+.DS_Store
+Thumbs.db

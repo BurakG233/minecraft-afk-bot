@@ -1,0 +1,19 @@
+{
+  "name": "mc-afk-bot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK Bot - Microsoft OAuth ile otomatik giriş",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start:local": "set BOT_HOST=127.0.0.1&& set BOT_VERSION=1.21.11&& node bot.js",
+    "start:live": "set BOT_HOST=mc.atlasoyuncu.com&& node bot.js",
+    "start:live1": "set BOT_HOST=mc.atlasoyuncu.com&& set BOT_MAX=1&& node bot.js"
+  },
+  "dependencies": {
+    "minecraft-data": "^3.116.0",
+    "minecraft-protocol": "^1.68.0",
+    "mineflayer": "^4.39.1",
+    "socks": "^2.8.10",
+    "vec3": "^0.2.0"
+  }
+}
